@@ -1,0 +1,26 @@
+.header {
+  background: var(--gray-700);
+  display: flex;
+  justify-content: center;
+  padding: 4.5rem 0;
+  
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.header p {
+  color: var(--blue);
+  font-family: Inter;
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 0.3rem;
+}
+
+.header p::after {
+  content: 'do';
+  color: var(--purple-dark);
+}
